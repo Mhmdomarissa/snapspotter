@@ -1,0 +1,52 @@
+name: snapspotter
+description: "Snapspotter - Find photography spots, studios, houses, and jobs."
+
+publish_to: 'none' # Private project, not published on pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # ✅ Core Packages
+  provider: ^6.0.5
+  flutter_svg: ^2.0.7
+  url_launcher: ^6.2.1
+
+  # ✅ Firebase Packages (for auth, database, storage)
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.15.9
+  firebase_storage: ^11.6.0
+
+  # ✅ Google Maps and Location
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+
+  # ✅ Image Upload
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
