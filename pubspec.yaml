@@ -32,6 +32,9 @@ dependencies:
   # ✅ Image Upload
   image_picker: ^1.0.7
 
+  smooth_page_indicator: ^1.1.0
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -44,9 +47,9 @@ flutter:
     - assets/images/
     - assets/icons/
 
-  fonts:
-    - family: Poppins
-      fonts:
-        - asset: assets/fonts/Poppins-Regular.ttf
-        - asset: assets/fonts/Poppins-Bold.ttf
-          weight: 700
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
