@@ -46,6 +46,9 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - assets/icons/apple_icon.png
+    - assets/icons/google_icon.png
+    - assets/icons/email_icon.png
 
   # fonts:
   #   - family: Poppins

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:snapspotter/features/authentication/signup_screen.dart';
+
 
 class IntroPage3 extends StatelessWidget {
   const IntroPage3({super.key});
@@ -40,7 +42,10 @@ class IntroPage3 extends StatelessWidget {
             height: 66,
             child: ElevatedButton(
               onPressed: () {
-                // TODO: Navigate to login/signup
+                 Navigator.pushReplacement(
+    context,
+    MaterialPageRoute(builder: (context) => const SignUpScreen()),
+  );
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Color(0xB212BB6A),
